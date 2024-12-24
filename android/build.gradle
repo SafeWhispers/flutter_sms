@@ -37,6 +37,7 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    namespace 'com.example.flutter_sms' // Added namespace
 }
 
 dependencies {
