@@ -39,12 +39,12 @@ android {
         disable 'InvalidPackage'
     }
     namespace 'com.example.flutter_sms' // Ensure this line is added
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-}
-
-kotlinOptions {
-    jvmTarget = "1.8"
 }
